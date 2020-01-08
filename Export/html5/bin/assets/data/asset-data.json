@@ -1,0 +1,82 @@
+{
+    "data": {
+        "soundassets": [
+            {
+                "name": "bestscore",
+                "sound": "best_score.mp3"
+            },
+            {
+                "name": "click",
+                "sound": "click3.mp3"
+            },
+            {
+                "name": "right",
+                "sound": "correct1.mp3"
+            },
+            {
+                "name": "flame",
+                "sound": "end_flame.mp3"
+            },
+            {
+                "name": "sword",
+                "sound": "end_sword.mp3"
+            },
+            {
+                "name": "menumusic",
+                "sound": "menu_music.mp3"
+            },
+            {
+                "name": "rampagemusic",
+                "sound": "rampage_music2.mp3"
+            },
+            {
+                "name": "music",
+                "sound": "rampage_music2.mp3"
+            },
+            {
+                "name": "repeat",
+                "sound": "repeat.mp3"
+            },
+            {
+                "name": "explosion",
+                "sound": "shield_explosion.mp3"
+            },
+            {
+                "name": "whoosh",
+                "sound": "shield_whoosh.mp3"
+            },
+            {
+                "name": "backspace",
+                "sound": "spark.mp3"
+            },
+            {
+                "name": "spindone",
+                "sound": "spin_done.mp3"
+            },
+            {
+                "name": "spin",
+                "sound": "spin5.mp3"
+            },
+            {
+                "name": "wrong",
+                "sound": "wrong.mp3"
+            }
+        ],
+        "textureassets": [
+            "assets/textures/THWORD-0.png",
+            "assets/textures/THWORD-0.xml",
+            "assets/textures/THWORD-1.png",
+            "assets/textures/THWORD-1.xml",
+            "assets/textures/THWORD-2.png",
+            "assets/textures/THWORD-2.xml",
+            "assets/textures/THWORD-3.png",
+            "assets/textures/THWORD-3.xml",
+            "assets/textures/THWORD-4.png",
+            "assets/textures/THWORD-4.xml"
+            
+        ],
+        "particleassets": [
+            "assets/textures/exercise/level4/wordspell/particles/particle1.png"
+        ]
+    }
+}

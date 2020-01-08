@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:08d227146174ee408b2624a08ba910a2:e63347aa936c14fda537838f6418ab40:92eaad1baed85c2aaf6ff2b359e0db19$ -->
+<TextureAtlas imagePath="THWORD-4.png" width="1738" height="1255">
+    <SubTexture name="btn_sound" x="1" y="1186" width="73" height="66"/>
+    <SubTexture name="btn_sound_mute" x="76" y="1186" width="73" height="66"/>
+    <SubTexture name="btn_sound_mutemusic" x="151" y="1186" width="73" height="66"/>
+    <SubTexture name="difficulty_goat0001" x="1476" y="1" width="157" height="186" frameX="-39" frameY="-26" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="difficulty_goat0005" x="1426" y="189" width="154" height="191" frameX="-44" frameY="-26" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="difficulty_goat0007" x="1582" y="205" width="154" height="181" frameX="-44" frameY="-26" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="goat_highscore_ani0005" x="1" y="1" width="513" height="399" frameX="-52" frameY="-86" frameWidth="746" frameHeight="541"/>
+    <SubTexture name="highscore_banner" x="971" y="1" width="503" height="86"/>
+    <SubTexture name="level_numbers_0004" x="1377" y="1136" width="74" height="90" frameX="-27" frameY="-7" frameWidth="128" frameHeight="102"/>
+    <SubTexture name="level_numbers_0007" x="1453" y="1136" width="67" height="89" frameX="-32" frameY="-8" frameWidth="128" frameHeight="102"/>
+    <SubTexture name="levelup_shield_small0002" x="1546" y="388" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0003" x="1641" y="388" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0004" x="1377" y="884" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0005" x="1594" y="763" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0006" x="1594" y="889" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0007" x="1472" y="970" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0008" x="1377" y="1010" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0009" x="1522" y="1096" width="93" height="124"/>
+    <SubTexture name="levelup_shield_small0010" x="1617" y="1088" width="93" height="124"/>
+    <SubTexture name="lock" x="1567" y="1015" width="77" height="71"/>
+    <SubTexture name="thor_levelup_bell0001" x="467" y="402" width="453" height="390" frameX="-11" frameY="-1" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thor_levelup_bell0002" x="922" y="869" width="453" height="385" frameX="-11" frameY="-6" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thor_levelup_bell0003" x="922" y="480" width="453" height="387" frameX="-11" frameY="-4" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thor_levelup_bell0004" x="971" y="89" width="453" height="389" frameX="-11" frameY="-2" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thor_levelup_bell0005" x="516" y="1" width="453" height="390" frameX="-11" frameY="-1" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thor_levelup_bell0006" x="1" y="402" width="464" height="390" frameX="0" frameY="-1" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thor_levelup_bell0007" x="1" y="794" width="464" height="390" frameX="0" frameY="-1" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thor_levelup_bell0009" x="467" y="794" width="453" height="390" frameX="-11" frameY="-1" frameWidth="464" frameHeight="391"/>
+    <SubTexture name="thword_splash_spin0005" x="1486" y="763" width="106" height="205" frameX="-64" frameY="-8" frameWidth="225" frameHeight="222"/>
+    <SubTexture name="thword_splash_spin0012" x="1635" y="1" width="99" height="202" frameX="-43" frameY="-7" frameWidth="225" frameHeight="222"/>
+    <SubTexture name="title_instructions" x="1377" y="575" width="360" height="92"/>
+    <SubTexture name="title_music" x="1377" y="669" width="360" height="92"/>
+    <SubTexture name="wwheel_spin_part5" x="1426" y="382" width="118" height="191"/>
+    <SubTexture name="wwheel_spin_stand" x="1377" y="763" width="107" height="119"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3098d5e9f130a27ef739d156cb81ffdd:c7fb3c29cadc46dfc255848ae0d49654:81b7f8277864d3a40a034d1b706a89d8$ -->
+<TextureAtlas imagePath="/bin/THWORD2x-0.png" width="2047" height="2048">
+    <SubTexture name="end_ch0001" x="1283" y="682" width="566" height="589" frameX="0" frameY="-8" frameWidth="566" frameHeight="597"/>
+    <SubTexture name="end_ch0005" x="1254" y="1273" width="566" height="589" frameX="0" frameY="-8" frameWidth="566" frameHeight="597"/>
+    <SubTexture name="end_hammer0001" x="1851" y="1106" width="175" height="385" frameX="-29" frameY="-8" frameWidth="246" frameHeight="400"/>
+    <SubTexture name="endurance_progressbar" x="1254" y="2033" width="498" height="14"/>
+    <SubTexture name="gamechoice_divider_endurance" x="1" y="2040" width="293" height="2"/>
+    <SubTexture name="gameoption_box_letters" x="1254" y="1864" width="533" height="167" frameX="0" frameY="-2" frameWidth="533" frameHeight="169"/>
+    <SubTexture name="goat_repeatword0007" x="1822" y="1493" width="214" height="407" frameX="-76" frameY="-8" frameWidth="292" frameHeight="416"/>
+    <SubTexture name="level_numbers_0001" x="2006" y="414" width="30" height="90" frameX="-47" frameY="-7" frameWidth="128" frameHeight="102"/>
+    <SubTexture name="levelup_shield_large0004" x="1851" y="682" width="167" height="422" frameX="-86" frameY="-12" frameWidth="357" frameHeight="442"/>
+    <SubTexture name="levelup_shield_large0009" x="2006" y="1" width="40" height="411" frameX="-157" frameY="-17" frameWidth="357" frameHeight="442"/>
+    <SubTexture name="levelup_shield_large0012" x="998" y="803" width="280" height="424" frameX="-29" frameY="-11" frameWidth="357" frameHeight="442"/>
+    <SubTexture name="panel_gameoptions" x="1" y="803" width="995" height="455"/>
+    <SubTexture name="speechbubble_combo" x="1789" y="1902" width="254" height="138" frameX="-1" frameY="-1" frameWidth="257" frameHeight="141"/>
+    <SubTexture name="thword_game-screen_bg" x="1" y="1" width="1280" height="800"/>
+    <SubTexture name="twhord_menu_bg_front" x="1" y="1273" width="1251" height="765" frameX="-27" frameY="0" frameWidth="1280" frameHeight="800"/>
+    <SubTexture name="twhord_menu_bg_mid_thor" x="1283" y="1" width="721" height="679"/>
+    <SubTexture name="wordlist_title" x="998" y="1229" width="196" height="39" frameX="-88" frameY="-3" frameWidth="372" frameHeight="43"/>
+    <SubTexture name="wwheel_spin_paddle" x="2006" y="506" width="24" height="50" frameX="0" frameY="0" frameWidth="26" frameHeight="53"/>
+</TextureAtlas>

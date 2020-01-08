@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Thword" package="com.educationcurb.thword" version="1.0.0" company="Education Curb Pty Ltd" />
+	<app main="Main" path="Export" file="Thword" />
+
+	<window width="1280" height="800"
+			orientation="landscape"
+			vsync="true" fps="60"
+			hardware="true"
+			allow-shaders="true"
+			require-shaders="true"
+			depth-buffer="false"
+			stencil-buffer="true"
+			background="0xFFFFFF"
+	/>
+
+	<window fullscreen="true" resizable="true"/>
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+
+	<window depth-buffer="true" if="html5" />
+	
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="starling" />
+	<haxelib name="actuate" />
+	<haxelib name="swiftsuspenders" />
+	<haxelib name="msignal" />
+	<!-- <haxelib name="robotlegs" /> -->
+	
+	
+	<assets path="assets/textures" embed="false" />
+	<assets path="assets/fonts" embed="false" rename="fonts"/>
+	<assets path="assets/data" embed="false" />
+	<assets path="assets/audio" embed="false" />
+	<assets path="assets/textures/particle" rename="particle" />
+	
+</project>

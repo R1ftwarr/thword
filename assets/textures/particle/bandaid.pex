@@ -1,0 +1,42 @@
+
+<particleEmitterConfig>
+    <absolutePosition value="0"></absolutePosition>
+    <yCoordFlipped value="-1"></yCoordFlipped>
+    <sourcePosition x="150.00" y="50.00"></sourcePosition>
+    <sourcePositionVariance x="15.00" y="18.00"></sourcePositionVariance>
+    <speed value="79.25"></speed>
+    <speedVariance value="0.00"></speedVariance>
+    <particleLifeSpan value="0.5673"></particleLifeSpan>
+    <particleLifespanVariance value="0.2595"></particleLifespanVariance>
+    <angle value="-90.00"></angle>
+    <angleVariance value="-0.00"></angleVariance>
+    <gravity x="0.00" y="120.00"></gravity>
+    <radialAcceleration value="0.00"></radialAcceleration>
+    <tangentialAcceleration value="-0.00"></tangentialAcceleration>
+    <radialAccelVariance value="0.00"></radialAccelVariance>
+    <tangentialAccelVariance value="-0.00"></tangentialAccelVariance>
+    <startColor red="0.02" green="0.20" blue="1.00" alpha="1.00"></startColor>
+    <startColorVariance red="0.00" green="0.00" blue="0.00" alpha="0.00"></startColorVariance>
+    <finishColor red="1.00" green="0.85" blue="1.00" alpha="1.00"></finishColor>
+    <finishColorVariance red="0.10" green="0.20" blue="0.00" alpha="0.18"></finishColorVariance>
+    <maxParticles value="98"></maxParticles>
+    <startParticleSize value="0.00"></startParticleSize>
+    <startParticleSizeVariance value="10.79"></startParticleSizeVariance>
+    <finishParticleSize value="11.48"></finishParticleSize>
+    <finishParticleSizeVariance value="11.48"></finishParticleSizeVariance>
+    <duration value="0.50"></duration>
+    <emitterType value="0"></emitterType>
+    <maxRadius value="0.00"></maxRadius>
+    <maxRadiusVariance value="0.00"></maxRadiusVariance>
+    <minRadius value="300.00"></minRadius>
+    <minRadiusVariance value="0.00"></minRadiusVariance>
+    <rotatePerSecond value="360.00"></rotatePerSecond>
+    <rotatePerSecondVariance value="0.00"></rotatePerSecondVariance>
+    <blendFuncSource value="770"></blendFuncSource>
+    <blendFuncDestination value="1"></blendFuncDestination>
+    <rotationStart value="0.00"></rotationStart>
+    <rotationStartVariance value="0.00"></rotationStartVariance>
+    <rotationEnd value="0.00"></rotationEnd>
+    <rotationEndVariance value="0.00"></rotationEndVariance>
+    <texture name="bandaid.png" data=""></texture>
+</particleEmitterConfig>

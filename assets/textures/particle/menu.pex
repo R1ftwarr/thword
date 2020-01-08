@@ -1,0 +1,42 @@
+
+<particleEmitterConfig>
+    <absolutePosition value="0"></absolutePosition>
+    <yCoordFlipped value="-1"></yCoordFlipped>
+    <sourcePosition x="150.00" y="50.00"></sourcePosition>
+    <sourcePositionVariance x="646.00" y="451.00"></sourcePositionVariance>
+    <speed value="0.00"></speed>
+    <speedVariance value="0.00"></speedVariance>
+    <particleLifeSpan value="7.0000"></particleLifeSpan>
+    <particleLifespanVariance value="10.0000"></particleLifespanVariance>
+    <angle value="-134.99"></angle>
+    <angleVariance value="-6.95"></angleVariance>
+    <gravity x="-62.39" y="-25.27"></gravity>
+    <radialAcceleration value="0.00"></radialAcceleration>
+    <tangentialAcceleration value="-0.00"></tangentialAcceleration>
+    <radialAccelVariance value="0.00"></radialAccelVariance>
+    <tangentialAccelVariance value="-0.00"></tangentialAccelVariance>
+    <startColor red="0.95" green="0.93" blue="0.79" alpha="1.00"></startColor>
+    <startColorVariance red="0.00" green="0.00" blue="0.00" alpha="0.00"></startColorVariance>
+    <finishColor red="0.00" green="0.98" blue="0.92" alpha="0.09"></finishColor>
+    <finishColorVariance red="0.00" green="0.00" blue="0.00" alpha="0.24"></finishColorVariance>
+    <maxParticles value="130"></maxParticles>
+    <startParticleSize value="3.00"></startParticleSize>
+    <startParticleSizeVariance value="10.00"></startParticleSizeVariance>
+    <finishParticleSize value="20.00"></finishParticleSize>
+    <finishParticleSizeVariance value="20.00"></finishParticleSizeVariance>
+    <duration value="-1.00"></duration>
+    <emitterType value="0"></emitterType>
+    <maxRadius value="110.00"></maxRadius>
+    <maxRadiusVariance value="15.89"></maxRadiusVariance>
+    <minRadius value="88.36"></minRadius>
+    <minRadiusVariance value="0.00"></minRadiusVariance>
+    <rotatePerSecond value="20.00"></rotatePerSecond>
+    <rotatePerSecondVariance value="0.00"></rotatePerSecondVariance>
+    <blendFuncSource value="770"></blendFuncSource>
+    <blendFuncDestination value="1"></blendFuncDestination>
+    <rotationStart value="0.00"></rotationStart>
+    <rotationStartVariance value="0.00"></rotationStartVariance>
+    <rotationEnd value="0.00"></rotationEnd>
+    <rotationEndVariance value="0.00"></rotationEndVariance>
+    <texture name="twhord menu.png" data=""></texture>
+</particleEmitterConfig>
