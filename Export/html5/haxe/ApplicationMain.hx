@@ -32,11 +32,11 @@ class ApplicationMain
 
 		ManifestResources.init(config);
 
-		app.meta["build"] = "176";
+		app.meta["build"] = "2";
 		app.meta["company"] = "Education Curb Pty Ltd";
 		app.meta["file"] = "Thword";
 		app.meta["name"] = "Thword";
-		app.meta["packageName"] = "com.educationcurb.thword";
+		app.meta["packageName"] = "com.glasirgames.thword";
 		app.meta["version"] = "1.0.0";
 
 		

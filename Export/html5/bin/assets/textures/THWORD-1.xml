@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:08d227146174ee408b2624a08ba910a2:e63347aa936c14fda537838f6418ab40:92eaad1baed85c2aaf6ff2b359e0db19$ -->
-<TextureAtlas imagePath="THWORD-1.png" width="2048" height="2042">
-    <SubTexture name="bandaid_available" x="1801" y="1051" width="44" height="44"/>
-    <SubTexture name="box_trynow" x="1283" y="1" width="578" height="277"/>
-    <SubTexture name="btn_check" x="1851" y="557" width="196" height="66"/>
-    <SubTexture name="btn_endurance" x="1605" y="871" width="243" height="88"/>
-    <SubTexture name="btn_endurance_selected" x="1605" y="961" width="243" height="88"/>
-    <SubTexture name="btn_info" x="1667" y="1051" width="65" height="59"/>
-    <SubTexture name="btn_music" x="1851" y="666" width="190" height="59"/>
-    <SubTexture name="btn_pause" x="1734" y="1051" width="65" height="59"/>
-    <SubTexture name="btn_purchase" x="1254" y="1461" width="229" height="62"/>
-    <SubTexture name="end_ch0001" x="1283" y="280" width="566" height="589" frameX="0" frameY="-8" frameWidth="566" frameHeight="597"/>
-    <SubTexture name="end_hammer0001" x="1863" y="170" width="175" height="385" frameX="-29" frameY="-8" frameWidth="246" frameHeight="400"/>
-    <SubTexture name="end_hammer0002" x="1851" y="727" width="175" height="385" frameX="-29" frameY="-8" frameWidth="246" frameHeight="400"/>
-    <SubTexture name="endurance_loadingbar" x="500" y="2027" width="443" height="14"/>
-    <SubTexture name="gameoption_difficulty_hammer0001" x="1497" y="871" width="106" height="231" frameX="-17" frameY="-4" frameWidth="147" frameHeight="239"/>
-    <SubTexture name="goat_combo0006" x="1254" y="871" width="241" height="445" frameX="-6" frameY="-3" frameWidth="253" frameHeight="449"/>
-    <SubTexture name="goat_highscore_ani0001" x="1497" y="1114" width="546" height="512" frameX="-180" frameY="-16" frameWidth="746" frameHeight="541"/>
-    <SubTexture name="goat_highscore_ani0002" x="1" y="1570" width="497" height="462" frameX="-148" frameY="-26" frameWidth="746" frameHeight="541"/>
-    <SubTexture name="goat_repeatword0001" x="1497" y="1628" width="210" height="411" frameX="-80" frameY="-4" frameWidth="292" frameHeight="416"/>
-    <SubTexture name="goat_repeatword0002" x="1709" y="1628" width="210" height="408" frameX="-80" frameY="-7" frameWidth="292" frameHeight="416"/>
-    <SubTexture name="inst_bandaid" x="1605" y="1051" width="60" height="60" frameX="0" frameY="0" frameWidth="61" frameHeight="61"/>
-    <SubTexture name="panel_gameoptions" x="500" y="1570" width="995" height="455"/>
-    <SubTexture name="spin_ani0002" x="1254" y="1318" width="236" height="141" frameX="0" frameY="0" frameWidth="254" frameHeight="183"/>
-    <SubTexture name="thword_splash_spin0004" x="1863" y="1" width="183" height="167" frameX="-31" frameY="-38" frameWidth="225" frameHeight="222"/>
-    <SubTexture name="twhord_menu_bg_front" x="1" y="803" width="1251" height="765" frameX="-27" frameY="0" frameWidth="1280" frameHeight="800"/>
-    <SubTexture name="wordlist_title" x="1851" y="625" width="196" height="39" frameX="-88" frameY="-3" frameWidth="372" frameHeight="43"/>
-    <SubTexture name="wwheel_spin_background" x="1" y="1" width="1280" height="800"/>
-    <SubTexture name="wwheel_spin_part2" x="1921" y="1628" width="118" height="191"/>
-    <SubTexture name="wwheel_spin_part3" x="1921" y="1821" width="118" height="191"/>
-    <SubTexture name="wwheel_spin_part8" x="1921" y="1628" width="118" height="191"/>
+<!-- $TexturePacker:SmartUpdate:06658ed68ede82ce4ffeda0c269f06b6:c7fb3c29cadc46dfc255848ae0d49654:92eaad1baed85c2aaf6ff2b359e0db19$ -->
+<TextureAtlas imagePath="THWORD-1.png" width="2046" height="2046">
+    <SubTexture name="bandaid_available" x="2001" y="1042" width="44" height="44"/>
+    <SubTexture name="difficulty_hammer_bronze" x="2001" y="775" width="43" height="87"/>
+    <SubTexture name="difficulty_hammer_gold" x="2001" y="864" width="43" height="87"/>
+    <SubTexture name="difficulty_hammer_silver" x="2001" y="953" width="43" height="87"/>
+    <SubTexture name="end_ch0002" x="1283" y="1" width="566" height="586" frameX="0" frameY="-11" frameWidth="566" frameHeight="597"/>
+    <SubTexture name="end_ch0003" x="1283" y="1177" width="566" height="583" frameX="0" frameY="-14" frameWidth="566" frameHeight="597"/>
+    <SubTexture name="end_ch0004" x="1283" y="589" width="566" height="586" frameX="0" frameY="-11" frameWidth="566" frameHeight="597"/>
+    <SubTexture name="end_hammer0002" x="1851" y="1" width="175" height="385" frameX="-29" frameY="-8" frameWidth="246" frameHeight="400"/>
+    <SubTexture name="end_hammer0003" x="1851" y="388" width="175" height="385" frameX="-29" frameY="-8" frameWidth="246" frameHeight="400"/>
+    <SubTexture name="endurance_loadingbar" x="1" y="2022" width="443" height="14"/>
+    <SubTexture name="game_panel_wordsbg" x="1" y="1605" width="632" height="415"/>
+    <SubTexture name="gameoption_box_choosegame" x="1283" y="1762" width="533" height="165" frameX="0" frameY="-2" frameWidth="533" frameHeight="167"/>
+    <SubTexture name="gameoption_difficulty_slider" x="1990" y="1623" width="55" height="55"/>
+    <SubTexture name="goat_highscore_ani0006" x="635" y="1605" width="526" height="421" frameX="-12" frameY="-88" frameWidth="746" frameHeight="541"/>
+    <SubTexture name="highscore_banner" x="1283" y="1929" width="503" height="86"/>
+    <SubTexture name="inst_bandaid" x="1788" y="1929" width="60" height="60" frameX="0" frameY="0" frameWidth="61" frameHeight="61"/>
+    <SubTexture name="levelup_shield_large0002" x="1851" y="1199" width="143" height="422" frameX="-114" frameY="-12" frameWidth="357" frameHeight="442"/>
+    <SubTexture name="levelup_shield_large0003" x="1163" y="1605" width="118" height="420" frameX="-113" frameY="-13" frameWidth="357" frameHeight="442"/>
+    <SubTexture name="levelup_shield_large0008" x="1851" y="1623" width="137" height="422" frameX="-117" frameY="-12" frameWidth="357" frameHeight="442"/>
+    <SubTexture name="levelup_shield_large0010" x="1851" y="775" width="148" height="422" frameX="-96" frameY="-12" frameWidth="357" frameHeight="442"/>
+    <SubTexture name="thword_splash_bg" x="1" y="1" width="1280" height="800"/>
+    <SubTexture name="twhord_menu_bg_back" x="1" y="803" width="1280" height="800"/>
 </TextureAtlas>
