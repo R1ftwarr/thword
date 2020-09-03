@@ -114,7 +114,7 @@ class Compat {
     static function _parseInt(s:String, ?base:Int):Null<Int> {
         #if js
         if(base == null) base = s.indexOf("0x") == 0 ? 16 : 10;
-        var v:Int = untyped __js__("parseInt")(s, base);
+        var v:Int = js.Syntax.code("parseInt")(s, base);
         return Math.isNaN(v) ? null : v;
         #elseif flash
         if(base == null) base = 0;
@@ -175,7 +175,7 @@ class Compat {
         #if flash
         return untyped __global__['flash.utils.setInterval'](closure, delay, values);
         #elseif js
-        return untyped __js__('setInterval')(closure, delay, values);
+        return js.Syntax.code('setInterval')(closure, delay, values);
         #elseif (haxe_ver >= "3.3")
         if (values == null) values = [];
         return FlashTimerAdapter.setInterval(closure, delay, values);
@@ -194,7 +194,7 @@ class Compat {
         #if flash
         untyped __global__['flash.utils.clearInterval'](id);
         #elseif js
-        untyped __js__('clearInterval')(id);
+        js.Syntax.code('clearInterval')(id);
         #elseif (haxe_ver >= "3.3")
         FlashTimerAdapter.clearInterval(id);
         #else
@@ -225,7 +225,7 @@ class Compat {
         #if flash
         return untyped __global__['flash.utils.setTimeout'](closure, delay, values);
         #elseif js
-        return untyped __js__('setTimeout')(closure, delay, values);
+        return js.Syntax.code('setTimeout')(closure, delay, values);
         #elseif (haxe_ver >= "3.3")
         if (values == null) values = [];
         return FlashTimerAdapter.setTimeout(closure, delay, values);
@@ -244,7 +244,7 @@ class Compat {
         #if flash
         untyped __global__['flash.utils.clearTimeout'](id);
         #elseif js
-        untyped __js__('clearTimeout')(id);
+        js.Syntax.code('clearTimeout')(id);
         #elseif (haxe_ver >= "3.3")
         FlashTimerAdapter.clearInterval(id);
         #else
@@ -260,7 +260,7 @@ class Compat {
         #if flash
         return untyped __global__['Number'].MAX_VALUE;
         #elseif js
-        return untyped __js__('Number.MAX_VALUE');
+        return js.Syntax.code('Number.MAX_VALUE');
         #elseif cs
         return untyped __cs__('double.MaxValue');
         #elseif java
@@ -282,7 +282,7 @@ class Compat {
         #if flash
         return untyped __global__['Number'].MIN_VALUE;
         #elseif js
-        return untyped __js__('Number.MIN_VALUE');
+        return js.Syntax.code('Number.MIN_VALUE');
         #elseif cs
         return untyped __cs__('double.MinValue');
         #elseif java
@@ -304,7 +304,7 @@ class Compat {
         #if flash
         return untyped __global__['int'].MAX_VALUE;
         #elseif js
-        return untyped __js__('Number.MAX_SAFE_INTEGER');
+        return js.Syntax.code('Number.MAX_SAFE_INTEGER');
         #elseif cs
         return untyped __cs__('int.MaxValue');
         #elseif java
@@ -328,7 +328,7 @@ class Compat {
         #if flash
         return untyped __global__['int'].MIN_VALUE;
         #elseif js
-        return untyped __js__('Number.MIN_SAFE_INTEGER');
+        return js.Syntax.code('Number.MIN_SAFE_INTEGER');
         #elseif cs
         return untyped __cs__('int.MinValue');
         #elseif java

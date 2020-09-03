@@ -32,8 +32,8 @@ class ApplicationMain
 
 		ManifestResources.init(config);
 
-		app.meta["build"] = "2";
-		app.meta["company"] = "Education Curb Pty Ltd";
+		app.meta["build"] = "3";
+		app.meta["company"] = "Glasir Games Pty Ltd";
 		app.meta["file"] = "Thword";
 		app.meta["name"] = "Thword";
 		app.meta["packageName"] = "com.glasirgames.thword";

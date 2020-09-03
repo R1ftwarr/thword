@@ -892,8 +892,8 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "2";
-	app.meta.h["company"] = "Education Curb Pty Ltd";
+	app.meta.h["build"] = "3";
+	app.meta.h["company"] = "Glasir Games Pty Ltd";
 	app.meta.h["file"] = "Thword";
 	app.meta.h["name"] = "Thword";
 	app.meta.h["packageName"] = "com.glasirgames.thword";
@@ -4444,7 +4444,7 @@ ManifestResources.init = function(config) {
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$fonts_$caviardreams_$ttf);
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$fonts_$bkant_$ttf);
 	var bundle;
-	var data = "{\"name\":null,\"assets\":\"aoy4:pathy34:assets%2Ftextures%2Fbackground.pngy4:sizei463219y4:typey5:IMAGEy2:idR1goR0y32:assets%2Ftextures%2FTHWORD-1.xmlR2i2947R3y4:TEXTR5R6goR0y32:assets%2Ftextures%2FTHWORD-1.pngR2i3467052R3R4R5R8goR0y32:assets%2Ftextures%2FTHWORD-0.pngR2i3514688R3R4R5R9goR0y32:assets%2Ftextures%2FTHWORD-0.xmlR2i2657R3R7R5R10goR0y32:assets%2Ftextures%2FTHWORD-2.xmlR2i4266R3R7R5R11goR0y32:assets%2Ftextures%2FTHWORD-2.pngR2i3182322R3R4R5R12goR0y32:assets%2Ftextures%2FTHWORD-3.pngR2i3626584R3R4R5R13goR0y32:assets%2Ftextures%2FTHWORD-3.xmlR2i7919R3R7R5R14goR0y32:assets%2Ftextures%2FTHWORD-4.xmlR2i7676R3R7R5R15goR0y32:assets%2Ftextures%2FTHWORD-4.pngR2i2944324R3R4R5R16goR0y44:assets%2Ftextures%2Fparticle%2Fhighscore.pexR2i2345R3R7R5R17goR0y40:assets%2Ftextures%2Fparticle%2Fbonus.pexR2i2326R3R7R5R18goR0y45:assets%2Ftextures%2Fparticle%2Fendgame-V2.pngR2i130380R3R4R5R19goR0y46:assets%2Ftextures%2Fparticle%2Fscore_check.pngR2i2320R3R4R5R20goR0y50:assets%2Ftextures%2Fparticle%2Fscore_backspace.pexR2i2344R3R7R5R21goR0y47:assets%2Ftextures%2Fparticle%2Fendurancebar.pexR2i2334R3R7R5R22goR0y47:assets%2Ftextures%2Fparticle%2Fendurancebar.pngR2i9063R3R4R5R23goR0y50:assets%2Ftextures%2Fparticle%2Fscore_backspace.pngR2i98291R3R4R5R24goR0y46:assets%2Ftextures%2Fparticle%2Fscore_check.pexR2i2334R3R7R5R25goR0y45:assets%2Ftextures%2Fparticle%2Fendgame-V2.pexR2i2353R3R7R5R26goR0y40:assets%2Ftextures%2Fparticle%2Fbonus.pngR2i14810R3R4R5R27goR0y44:assets%2Ftextures%2Fparticle%2Fhighscore.pngR2i27983R3R4R5R28goR0y50:assets%2Ftextures%2Fparticle%2Fshield_particle.pngR2i5193R3R4R5R29goR0y42:assets%2Ftextures%2Fparticle%2Fbandaid.pexR2i2331R3R7R5R30goR0y47:assets%2Ftextures%2Fparticle%2Fletter_light.pngR2i75928R3R4R5R31goR0y39:assets%2Ftextures%2Fparticle%2Fmenu.pngR2i30846R3R4R5R32goR0y48:assets%2Ftextures%2Fparticle%2Fgamescreen_bg.pexR2i2339R3R7R5R33goR0y45:assets%2Ftextures%2Fparticle%2Ffire_wrong.pexR2i2339R3R7R5R34goR0y45:assets%2Ftextures%2Fparticle%2Ffire_wrong.pngR2i35067R3R4R5R35goR0y48:assets%2Ftextures%2Fparticle%2Fgamescreen_bg.pngR2i4566R3R4R5R36goR0y39:assets%2Ftextures%2Fparticle%2Fmenu.pexR2i2343R3R7R5R37goR0y47:assets%2Ftextures%2Fparticle%2Fletter_light.pexR2i2333R3R7R5R38goR0y42:assets%2Ftextures%2Fparticle%2Fbandaid.pngR2i3434R3R4R5R39goR0y50:assets%2Ftextures%2Fparticle%2Fshield_particle.pexR2i2336R3R7R5R40goR2i78232R3y4:FONTy9:classNamey30:__ASSET__fonts_arkhip_font_ttfR5y23:fonts%2FArkhip_font.ttfy7:preloadtgoR2i58864R3R41R42y31:__ASSET__fonts_caviardreams_ttfR5y24:fonts%2FCaviarDreams.ttfR45tgoR2i155528R3R41R42y24:__ASSET__fonts_bkant_ttfR5y17:fonts%2FBKANT.TTFR45tgoR0y30:assets%2Fdata%2Fdictionary.txtR2i2707019R3R7R5R50goR0y31:assets%2Fdata%2Fasset-data.jsonR2i2242R3R7R5R51goR2i132052R3y5:MUSICR5y37:assets%2Faudio%2Fshield_explosion.mp3y9:pathGroupaR53hgoR2i42219R3R52R5y34:assets%2Faudio%2Fshield_whoosh.mp3R54aR55hgoR2i11744R3R52R5y26:assets%2Faudio%2Fspin5.mp3R54aR56hgoR2i95515R3R52R5y30:assets%2Faudio%2Fend_flame.mp3R54aR57hgoR2i154896R3R52R5y30:assets%2Faudio%2Fend_sword.mp3R54aR58hgoR2i79468R3R52R5y29:assets%2Faudio%2Fcorrect1.mp3R54aR59hgoR2i150599R3R52R5y31:assets%2Faudio%2Fbest_score.mp3R54aR60hgoR2i16966R3R52R5y27:assets%2Faudio%2Fclick3.mp3R54aR61hgoR2i138810R3R52R5y30:assets%2Faudio%2Fspin_done.mp3R54aR62hgoR2i22839R3R52R5y26:assets%2Faudio%2Fspark.mp3R54aR63hgoR2i12787R3R52R5y27:assets%2Faudio%2Fclick2.mp3R54aR64hgoR2i7321240R3R52R5y31:assets%2Faudio%2Fmenu_music.mp3R54aR65hgoR2i16962R3R52R5y27:assets%2Faudio%2Fclick1.mp3R54aR66hgoR2i124194R3R52R5y31:assets%2Faudio%2Flevel_bell.mp3R54aR67hgoR2i93918R3R52R5y27:assets%2Faudio%2Frepeat.mp3R54aR68hgoR2i35668R3R52R5y26:assets%2Faudio%2Fwrong.mp3R54aR69hgoR2i8223837R3R52R5y35:assets%2Faudio%2Frampage_music2.mp3R54aR70hgoR0y24:particle%2Fhighscore.pexR2i2345R3R7R5R71R45tgoR0y20:particle%2Fbonus.pexR2i2326R3R7R5R72R45tgoR0y25:particle%2Fendgame-V2.pngR2i130380R3R4R5R73R45tgoR0y26:particle%2Fscore_check.pngR2i2320R3R4R5R74R45tgoR0y30:particle%2Fscore_backspace.pexR2i2344R3R7R5R75R45tgoR0y27:particle%2Fendurancebar.pexR2i2334R3R7R5R76R45tgoR0y27:particle%2Fendurancebar.pngR2i9063R3R4R5R77R45tgoR0y30:particle%2Fscore_backspace.pngR2i98291R3R4R5R78R45tgoR0y26:particle%2Fscore_check.pexR2i2334R3R7R5R79R45tgoR0y25:particle%2Fendgame-V2.pexR2i2353R3R7R5R80R45tgoR0y20:particle%2Fbonus.pngR2i14810R3R4R5R81R45tgoR0y24:particle%2Fhighscore.pngR2i27983R3R4R5R82R45tgoR0y30:particle%2Fshield_particle.pngR2i5193R3R4R5R83R45tgoR0y22:particle%2Fbandaid.pexR2i2331R3R7R5R84R45tgoR0y27:particle%2Fletter_light.pngR2i75928R3R4R5R85R45tgoR0y19:particle%2Fmenu.pngR2i30846R3R4R5R86R45tgoR0y28:particle%2Fgamescreen_bg.pexR2i2339R3R7R5R87R45tgoR0y25:particle%2Ffire_wrong.pexR2i2339R3R7R5R88R45tgoR0y25:particle%2Ffire_wrong.pngR2i35067R3R4R5R89R45tgoR0y28:particle%2Fgamescreen_bg.pngR2i4566R3R4R5R90R45tgoR0y19:particle%2Fmenu.pexR2i2343R3R7R5R91R45tgoR0y27:particle%2Fletter_light.pexR2i2333R3R7R5R92R45tgoR0y22:particle%2Fbandaid.pngR2i3434R3R4R5R93R45tgoR0y30:particle%2Fshield_particle.pexR2i2336R3R7R5R94R45tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
+	var data = "{\"name\":null,\"assets\":\"aoy4:pathy34:assets%2Ftextures%2Fbackground.pngy4:sizei463219y4:typey5:IMAGEy2:idR1goR0y32:assets%2Ftextures%2FTHWORD-1.xmlR2i2947R3y4:TEXTR5R6goR0y32:assets%2Ftextures%2FTHWORD-1.pngR2i3467052R3R4R5R8goR0y32:assets%2Ftextures%2FTHWORD-0.pngR2i3514688R3R4R5R9goR0y32:assets%2Ftextures%2FTHWORD-0.xmlR2i2657R3R7R5R10goR0y32:assets%2Ftextures%2FTHWORD-2.xmlR2i4266R3R7R5R11goR0y32:assets%2Ftextures%2FTHWORD-2.pngR2i3182322R3R4R5R12goR0y32:assets%2Ftextures%2FTHWORD-3.pngR2i3626584R3R4R5R13goR0y32:assets%2Ftextures%2FTHWORD-3.xmlR2i7919R3R7R5R14goR0y32:assets%2Ftextures%2FTHWORD-4.xmlR2i7676R3R7R5R15goR0y32:assets%2Ftextures%2FTHWORD-4.pngR2i2944324R3R4R5R16goR0y44:assets%2Ftextures%2Fparticle%2Fhighscore.pexR2i2345R3R7R5R17goR0y40:assets%2Ftextures%2Fparticle%2Fbonus.pexR2i2326R3R7R5R18goR0y45:assets%2Ftextures%2Fparticle%2Fendgame-V2.pngR2i130380R3R4R5R19goR0y46:assets%2Ftextures%2Fparticle%2Fscore_check.pngR2i2320R3R4R5R20goR0y50:assets%2Ftextures%2Fparticle%2Fscore_backspace.pexR2i2344R3R7R5R21goR0y47:assets%2Ftextures%2Fparticle%2Fendurancebar.pexR2i2334R3R7R5R22goR0y47:assets%2Ftextures%2Fparticle%2Fendurancebar.pngR2i9063R3R4R5R23goR0y50:assets%2Ftextures%2Fparticle%2Fscore_backspace.pngR2i98291R3R4R5R24goR0y46:assets%2Ftextures%2Fparticle%2Fscore_check.pexR2i2334R3R7R5R25goR0y45:assets%2Ftextures%2Fparticle%2Fendgame-V2.pexR2i2353R3R7R5R26goR0y40:assets%2Ftextures%2Fparticle%2Fbonus.pngR2i14810R3R4R5R27goR0y44:assets%2Ftextures%2Fparticle%2Fhighscore.pngR2i27983R3R4R5R28goR0y50:assets%2Ftextures%2Fparticle%2Fshield_particle.pngR2i5193R3R4R5R29goR0y42:assets%2Ftextures%2Fparticle%2Fbandaid.pexR2i2331R3R7R5R30goR0y47:assets%2Ftextures%2Fparticle%2Fletter_light.pngR2i75928R3R4R5R31goR0y39:assets%2Ftextures%2Fparticle%2Fmenu.pngR2i30846R3R4R5R32goR0y48:assets%2Ftextures%2Fparticle%2Fgamescreen_bg.pexR2i2339R3R7R5R33goR0y45:assets%2Ftextures%2Fparticle%2Ffire_wrong.pexR2i2339R3R7R5R34goR0y45:assets%2Ftextures%2Fparticle%2Ffire_wrong.pngR2i35067R3R4R5R35goR0y48:assets%2Ftextures%2Fparticle%2Fgamescreen_bg.pngR2i4566R3R4R5R36goR0y39:assets%2Ftextures%2Fparticle%2Fmenu.pexR2i2343R3R7R5R37goR0y47:assets%2Ftextures%2Fparticle%2Fletter_light.pexR2i2333R3R7R5R38goR0y42:assets%2Ftextures%2Fparticle%2Fbandaid.pngR2i3434R3R4R5R39goR0y50:assets%2Ftextures%2Fparticle%2Fshield_particle.pexR2i2336R3R7R5R40goR2i78232R3y4:FONTy9:classNamey30:__ASSET__fonts_arkhip_font_ttfR5y23:fonts%2FArkhip_font.ttfy7:preloadtgoR2i58864R3R41R42y31:__ASSET__fonts_caviardreams_ttfR5y24:fonts%2FCaviarDreams.ttfR45tgoR2i155528R3R41R42y24:__ASSET__fonts_bkant_ttfR5y17:fonts%2FBKANT.TTFR45tgoR0y30:assets%2Fdata%2Fdictionary.txtR2i2707019R3R7R5R50goR0y31:assets%2Fdata%2Fasset-data.jsonR2i2175R3R7R5R51goR2i132052R3y5:MUSICR5y37:assets%2Faudio%2Fshield_explosion.mp3y9:pathGroupaR53hgoR2i42219R3R52R5y34:assets%2Faudio%2Fshield_whoosh.mp3R54aR55hgoR2i11744R3R52R5y26:assets%2Faudio%2Fspin5.mp3R54aR56hgoR2i95515R3R52R5y30:assets%2Faudio%2Fend_flame.mp3R54aR57hgoR2i154896R3R52R5y30:assets%2Faudio%2Fend_sword.mp3R54aR58hgoR2i79468R3R52R5y29:assets%2Faudio%2Fcorrect1.mp3R54aR59hgoR2i150599R3R52R5y31:assets%2Faudio%2Fbest_score.mp3R54aR60hgoR2i16966R3R52R5y27:assets%2Faudio%2Fclick3.mp3R54aR61hgoR2i138810R3R52R5y30:assets%2Faudio%2Fspin_done.mp3R54aR62hgoR2i22839R3R52R5y26:assets%2Faudio%2Fspark.mp3R54aR63hgoR2i12787R3R52R5y27:assets%2Faudio%2Fclick2.mp3R54aR64hgoR2i7321240R3R52R5y31:assets%2Faudio%2Fmenu_music.mp3R54aR65hgoR2i16962R3R52R5y27:assets%2Faudio%2Fclick1.mp3R54aR66hgoR2i124194R3R52R5y31:assets%2Faudio%2Flevel_bell.mp3R54aR67hgoR2i93918R3R52R5y27:assets%2Faudio%2Frepeat.mp3R54aR68hgoR2i35668R3R52R5y26:assets%2Faudio%2Fwrong.mp3R54aR69hgoR2i8223837R3R52R5y35:assets%2Faudio%2Frampage_music2.mp3R54aR70hgoR0y24:particle%2Fhighscore.pexR2i2345R3R7R5R71R45tgoR0y20:particle%2Fbonus.pexR2i2326R3R7R5R72R45tgoR0y25:particle%2Fendgame-V2.pngR2i130380R3R4R5R73R45tgoR0y26:particle%2Fscore_check.pngR2i2320R3R4R5R74R45tgoR0y30:particle%2Fscore_backspace.pexR2i2344R3R7R5R75R45tgoR0y27:particle%2Fendurancebar.pexR2i2334R3R7R5R76R45tgoR0y27:particle%2Fendurancebar.pngR2i9063R3R4R5R77R45tgoR0y30:particle%2Fscore_backspace.pngR2i98291R3R4R5R78R45tgoR0y26:particle%2Fscore_check.pexR2i2334R3R7R5R79R45tgoR0y25:particle%2Fendgame-V2.pexR2i2353R3R7R5R80R45tgoR0y20:particle%2Fbonus.pngR2i14810R3R4R5R81R45tgoR0y24:particle%2Fhighscore.pngR2i27983R3R4R5R82R45tgoR0y30:particle%2Fshield_particle.pngR2i5193R3R4R5R83R45tgoR0y22:particle%2Fbandaid.pexR2i2331R3R7R5R84R45tgoR0y27:particle%2Fletter_light.pngR2i75928R3R4R5R85R45tgoR0y19:particle%2Fmenu.pngR2i30846R3R4R5R86R45tgoR0y28:particle%2Fgamescreen_bg.pexR2i2339R3R7R5R87R45tgoR0y25:particle%2Ffire_wrong.pexR2i2339R3R7R5R88R45tgoR0y25:particle%2Ffire_wrong.pngR2i35067R3R4R5R89R45tgoR0y28:particle%2Fgamescreen_bg.pngR2i4566R3R4R5R90R45tgoR0y19:particle%2Fmenu.pexR2i2343R3R7R5R91R45tgoR0y27:particle%2Fletter_light.pexR2i2333R3R7R5R92R45tgoR0y22:particle%2Fbandaid.pngR2i3434R3R4R5R93R45tgoR0y30:particle%2Fshield_particle.pexR2i2336R3R7R5R94R45tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
 	var manifest = lime_utils_AssetManifest.parse(data,ManifestResources.rootPath);
 	var library = lime_utils_AssetLibrary.fromManifest(manifest);
 	lime_utils_Assets.registerLibrary("default",library);
@@ -12061,13 +12061,15 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		}
 	}
 	,newLevelPauseStart: function() {
-		clearInterval(this.levelInterval);
+		var id = this.levelInterval;
+		clearInterval(id);
 		this.stopProgressParticle();
 		this.createThorLevelEnd();
 		this.levelInterval = setInterval($bind(this,this.triggerNewLevel),1000,null);
 	}
 	,triggerNewLevel: function() {
-		clearInterval(this.levelInterval);
+		var id = this.levelInterval;
+		clearInterval(id);
 		this.gameData.selectedLevel += 1;
 		this.progressBar.set_width(this.barFullWidth / 2);
 		this.showLevel(this.gameData.selectedLevel,false);
@@ -12168,11 +12170,13 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.shieldInterval = setInterval($bind(this,this.fadeShield),1000,null);
 	}
 	,fadeShield: function() {
-		clearInterval(this.shieldInterval);
+		var id = this.shieldInterval;
+		clearInterval(id);
 		this.shieldInterval = setInterval($bind(this,this.onShowLevelComplete),300,null);
 	}
 	,onShowLevelComplete: function() {
-		clearInterval(this.shieldInterval);
+		var id = this.shieldInterval;
+		clearInterval(id);
 		this.startTimer();
 	}
 	,startTimer: function() {
@@ -12312,7 +12316,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		return bonusPoints;
 	}
 	,hideBonusDisplay: function() {
-		clearInterval(this.bonusInterval);
+		var id = this.bonusInterval;
+		clearInterval(id);
 		this.txtBonus.set_text("");
 		this.sprBonus.set_visible(false);
 	}
@@ -12673,7 +12678,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 	,showPoints: function(p) {
 		this.txtPoints.set_y(this.scorePanel.get_y() + this.scorePanel.get_height() + com_glasirgames_thword_view_SingleEndurance.BTN_SPACE);
 		if(this.pointsInterval != 0) {
-			clearInterval(this.pointsInterval);
+			var id = this.pointsInterval;
+			clearInterval(id);
 		}
 		if(p > 0) {
 			this.txtPoints.set_text("+" + (p == null ? "null" : "" + p));
@@ -12688,11 +12694,13 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		}
 	}
 	,movePoints: function() {
-		clearInterval(this.pointsInterval);
+		var id = this.pointsInterval;
+		clearInterval(id);
 		this.pointsInterval = setInterval($bind(this,this.hidePoints),100,null);
 	}
 	,hidePoints: function() {
-		clearInterval(this.pointsInterval);
+		var id = this.pointsInterval;
+		clearInterval(id);
 		this.txtPoints.set_text("");
 		this.txtScore.set_text(Std.string(this.points));
 	}
@@ -12783,7 +12791,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.answerInterval = setInterval($bind(this,this.hideRight),1500,null);
 	}
 	,hideRight: function() {
-		clearInterval(this.answerInterval);
+		var id = this.answerInterval;
+		clearInterval(id);
 		this.rightGoat.set_visible(false);
 		this.rightBubble.set_visible(false);
 		this.txtRight.set_text("");
@@ -12811,7 +12820,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.answerInterval = setInterval($bind(this,this.hideWrong),1500,null);
 	}
 	,hideWrong: function() {
-		clearInterval(this.answerInterval);
+		var id = this.answerInterval;
+		clearInterval(id);
 		this.wrongGoat.set_visible(false);
 		this.wrongBubble.set_visible(false);
 		this.txtWrong.set_text("");
@@ -12979,7 +12989,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.scoreCheckInterval = setInterval($bind(this,this.stopScoreCheckRightParticle),10,null);
 	}
 	,stopScoreCheckRightParticle: function() {
-		clearInterval(this.scoreCheckInterval);
+		var id = this.scoreCheckInterval;
+		clearInterval(id);
 		this.scoreCheckRightSys.stop();
 	}
 	,playScoreCheckWrong: function() {
@@ -12998,7 +13009,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.scoreCheckInterval = setInterval($bind(this,this.stopScoreCheckWrongParticle),50,null);
 	}
 	,stopScoreCheckWrongParticle: function() {
-		clearInterval(this.scoreCheckInterval);
+		var id = this.scoreCheckInterval;
+		clearInterval(id);
 		this.scoreCheckWrongSys.stop();
 	}
 	,playLetterLight: function(xpos,ypos) {
@@ -13017,7 +13029,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.particleInterval = setInterval($bind(this,this.stopLetterLight),100,null);
 	}
 	,stopLetterLight: function() {
-		clearInterval(this.particleInterval);
+		var id = this.particleInterval;
+		clearInterval(id);
 		this.letterLight.stop();
 	}
 	,playEndParticle: function() {
@@ -13036,7 +13049,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.particleIntervalEnd = setInterval($bind(this,this.stopEndParticle),100,null);
 	}
 	,stopEndParticle: function() {
-		clearInterval(this.particleIntervalEnd);
+		var id = this.particleIntervalEnd;
+		clearInterval(id);
 		this.endGameSys.stop();
 	}
 	,playProgressParticle: function() {
@@ -13079,7 +13093,8 @@ com_glasirgames_thword_view_SingleEndurance.prototype = $extend(starling_display
 		this.particleIntervalEnd = setInterval($bind(this,this.stopShieldParticle),50,null);
 	}
 	,stopShieldParticle: function() {
-		clearInterval(this.particleIntervalEnd);
+		var id = this.particleIntervalEnd;
+		clearInterval(id);
 		this.shieldExSys.stop();
 	}
 	,__class__: com_glasirgames_thword_view_SingleEndurance
@@ -13783,7 +13798,7 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 	}
 	,createNineLetters: function() {
 		this.letters = this.rampageVO.getLetters();
-		haxe_Log.trace("9-" + Std.string(this.letters),{ fileName : "Source/com/glasirgames/thword/view/SingleRampage.hx", lineNumber : 435, className : "com.glasirgames.thword.view.SingleRampage", methodName : "createNineLetters"});
+		haxe_Log.trace("9-" + Std.string(this.letters),{ fileName : "Source/com/glasirgames/thword/view/SingleRampage.hx", lineNumber : 445, className : "com.glasirgames.thword.view.SingleRampage", methodName : "createNineLetters"});
 		this.buttonVec = [];
 		this.sprGrid = new starling_display_Sprite();
 		var xpos = 0;
@@ -13820,7 +13835,7 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 	}
 	,createTwelveLetters: function() {
 		this.letters = this.rampageVO.getLetters();
-		haxe_Log.trace("12-" + Std.string(this.letters),{ fileName : "Source/com/glasirgames/thword/view/SingleRampage.hx", lineNumber : 487, className : "com.glasirgames.thword.view.SingleRampage", methodName : "createTwelveLetters"});
+		haxe_Log.trace("12-" + Std.string(this.letters),{ fileName : "Source/com/glasirgames/thword/view/SingleRampage.hx", lineNumber : 497, className : "com.glasirgames.thword.view.SingleRampage", methodName : "createTwelveLetters"});
 		this.buttonVec = [];
 		this.sprGrid = new starling_display_Sprite();
 		var xpos = 0;
@@ -13985,7 +14000,8 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 	,showPoints: function(p) {
 		this.txtPoints.set_y(this.scorePanel.get_y() + this.scorePanel.get_height() + com_glasirgames_thword_view_SingleRampage.BTN_SPACE);
 		if(this.pointsInterval != 0) {
-			clearInterval(this.pointsInterval);
+			var id = this.pointsInterval;
+			clearInterval(id);
 		}
 		if(p > 0) {
 			this.txtPoints.set_text("+" + (p == null ? "null" : "" + p));
@@ -14013,7 +14029,8 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		this.answerInterval = setInterval($bind(this,this.hideRight),1500,null);
 	}
 	,hideRight: function() {
-		clearInterval(this.answerInterval);
+		var id = this.answerInterval;
+		clearInterval(id);
 		this.rightGoat.set_visible(false);
 		this.rightBubble.set_visible(false);
 		this.txtRight.set_text("");
@@ -14041,20 +14058,23 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		this.answerInterval = setInterval($bind(this,this.hideWrong),1500,null);
 	}
 	,hideWrong: function() {
-		clearInterval(this.answerInterval);
+		var id = this.answerInterval;
+		clearInterval(id);
 		this.wrongGoat.set_visible(false);
 		this.wrongBubble.set_visible(false);
 		this.txtWrong.set_text("");
 	}
 	,showBandaid: function() {
 		if(this.bandaidInterval != 0) {
-			clearInterval(this.bandaidInterval);
+			var id = this.bandaidInterval;
+			clearInterval(id);
 		}
 		this.bandaidActivated.set_visible(true);
 		this.bandaidInterval = setInterval($bind(this,this.hideBandaid),1500,null);
 	}
 	,hideBandaid: function() {
-		clearInterval(this.bandaidInterval);
+		var id = this.bandaidInterval;
+		clearInterval(id);
 		this.bandaidActivated.set_visible(false);
 	}
 	,checkDuplicate: function() {
@@ -14072,11 +14092,13 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		return found;
 	}
 	,movePoints: function() {
-		clearInterval(this.pointsInterval);
+		var id = this.pointsInterval;
+		clearInterval(id);
 		this.pointsInterval = setInterval($bind(this,this.hidePoints),100,null);
 	}
 	,hidePoints: function() {
-		clearInterval(this.pointsInterval);
+		var id = this.pointsInterval;
+		clearInterval(id);
 		this.txtPoints.set_text("");
 		this.txtScore.set_text(Std.string(this.points));
 	}
@@ -14139,7 +14161,6 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		this.clearGrid();
 		this.endPopup = new com_glasirgames_thword_view_gamestuff_RampageEndPopup(this.points,this.wordsFoundArr,this._soundManager,this._globalVO);
 		this.addChild(this.endPopup);
-		var tmp = !secondDibs;
 		this.endPopup.replayGame.add($bind(this,this.onEndReplay));
 		this.endPopup.navHome.add($bind(this,this.onEndNavHome));
 	}
@@ -14221,7 +14242,8 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		this.scoreCheckInterval = setInterval($bind(this,this.stopScoreCheckRightParticle),10,null);
 	}
 	,stopScoreCheckRightParticle: function() {
-		clearInterval(this.scoreCheckInterval);
+		var id = this.scoreCheckInterval;
+		clearInterval(id);
 		this.scoreCheckRightSys.stop();
 	}
 	,playScoreCheckWrong: function() {
@@ -14240,7 +14262,8 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		this.scoreCheckInterval = setInterval($bind(this,this.stopScoreCheckWrongParticle),50,null);
 	}
 	,stopScoreCheckWrongParticle: function() {
-		clearInterval(this.scoreCheckInterval);
+		var id = this.scoreCheckInterval;
+		clearInterval(id);
 		this.scoreCheckWrongSys.stop();
 	}
 	,playLetterLight: function(xpos,ypos) {
@@ -14259,7 +14282,8 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		this.particleInterval = setInterval($bind(this,this.stopLetterLight),100,null);
 	}
 	,stopLetterLight: function() {
-		clearInterval(this.particleInterval);
+		var id = this.particleInterval;
+		clearInterval(id);
 		this.letterLight.stop();
 	}
 	,playEndParticle: function() {
@@ -14278,7 +14302,8 @@ com_glasirgames_thword_view_SingleRampage.prototype = $extend(starling_display_S
 		this.particleIntervalEnd = setInterval($bind(this,this.stopEndParticle),100,null);
 	}
 	,stopEndParticle: function() {
-		clearInterval(this.particleIntervalEnd);
+		var id = this.particleIntervalEnd;
+		clearInterval(id);
 		this.endGameSys.stop();
 	}
 	,__class__: com_glasirgames_thword_view_SingleRampage
@@ -14500,7 +14525,8 @@ com_glasirgames_thword_view_gamestuff_EnduranceEndPopup.prototype = $extend(star
 		this.particleIntervalBest = setInterval($bind(this,this.removeHighScoreParticle),500,null);
 	}
 	,removeHighScoreParticle: function() {
-		clearInterval(this.particleIntervalBest);
+		var id = this.particleIntervalBest;
+		clearInterval(id);
 		this.bestScoreSys.stop();
 	}
 	,createPopup: function() {
@@ -14615,7 +14641,8 @@ com_glasirgames_thword_view_gamestuff_EnduranceEndPopup.prototype = $extend(star
 		}
 	}
 	,createGoat: function() {
-		clearInterval(this.goatInterval);
+		var id = this.goatInterval;
+		clearInterval(id);
 		this._soundManager.play("bestscore");
 		var coverBottomColor = 0;
 		var coverTopColor = 0;
@@ -14653,11 +14680,13 @@ com_glasirgames_thword_view_gamestuff_EnduranceEndPopup.prototype = $extend(star
 		this.goatInterval = setInterval($bind(this,this.fadeGoat),3000,null);
 	}
 	,fadeGoat: function() {
-		clearInterval(this.goatInterval);
+		var id = this.goatInterval;
+		clearInterval(id);
 		this.goatInterval = setInterval($bind(this,this.removeGoat),1000,null);
 	}
 	,removeGoat: function() {
-		clearInterval(this.goatInterval);
+		var id = this.goatInterval;
+		clearInterval(id);
 		starling_core_Starling.get_current().get_juggler().remove(this.dancingGoat);
 		this.removeChild(this.dancingGoat);
 		this.removeChild(this.goatCover);
@@ -14761,7 +14790,8 @@ com_glasirgames_thword_view_gamestuff_RampageEndPopup.prototype = $extend(starli
 		this.particleIntervalBest = setInterval($bind(this,this.removeHighScoreParticle),500,null);
 	}
 	,removeHighScoreParticle: function() {
-		clearInterval(this.particleIntervalBest);
+		var id = this.particleIntervalBest;
+		clearInterval(id);
 		this.bestScoreSys.stop();
 	}
 	,createPopup: function() {
@@ -14887,7 +14917,8 @@ com_glasirgames_thword_view_gamestuff_RampageEndPopup.prototype = $extend(starli
 		}
 	}
 	,createGoat: function() {
-		clearInterval(this.goatInterval);
+		var id = this.goatInterval;
+		clearInterval(id);
 		this._soundManager.play("bestscore");
 		var coverBottomColor = 0;
 		var coverTopColor = 0;
@@ -14925,11 +14956,13 @@ com_glasirgames_thword_view_gamestuff_RampageEndPopup.prototype = $extend(starli
 		this.goatInterval = setInterval($bind(this,this.fadeGoat),3000,null);
 	}
 	,fadeGoat: function() {
-		clearInterval(this.goatInterval);
+		var id = this.goatInterval;
+		clearInterval(id);
 		this.goatInterval = setInterval($bind(this,this.removeGoat),1000,null);
 	}
 	,removeGoat: function() {
-		clearInterval(this.goatInterval);
+		var id = this.goatInterval;
+		clearInterval(id);
 		starling_core_Starling.get_current().get_juggler().remove(this.dancingGoat);
 		this.removeChild(this.dancingGoat);
 		this.removeChild(this.goatCover);
@@ -34872,7 +34905,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 122880;
+	this.version = 217217;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
@@ -106621,7 +106654,7 @@ com_glasirgames_thword_view_SingleEnduranceMediator.__meta__ = { fields : { view
 com_glasirgames_thword_view_SingleEnduranceMediator.__rtti = "<class path=\"com.glasirgames.thword.view.SingleEnduranceMediator\" params=\"\">\n\t<extends path=\"robotlegs.bender.bundles.mvcs.Mediator\"/>\n\t<__TYPE_DESC static=\"1\"><c path=\"org.swiftsuspenders.typedescriptions.TypeDescription\"/></__TYPE_DESC>\n\t<view public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.view.SingleEndurance\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</view>\n\t<globalVO public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.model.GlobalVO\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</globalVO>\n\t<mainNavSignal public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.signal.MainNavSignal\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</mainNavSignal>\n\t<initialize public=\"1\" set=\"method\" line=\"38\" override=\"1\"><f a=\"\"><x path=\"Void\"/></f></initialize>\n\t<addMediatorListeners set=\"method\" line=\"44\"><f a=\"\"><x path=\"Void\"/></f></addMediatorListeners>\n\t<onNavBack set=\"method\" line=\"49\"><f a=\"\"><x path=\"Void\"/></f></onNavBack>\n\t<new public=\"1\" set=\"method\" line=\"33\"><f a=\"\"><x path=\"Void\"/></f></new>\n\t<meta>\n\t\t<m n=\":directlyUsed\"/>\n\t\t<m n=\":build\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":autoBuild\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":rtti\"/>\n\t\t<m n=\":keepSub\"/>\n\t</meta>\n</class>";
 com_glasirgames_thword_view_SinglePlayerMenu.BTN_SPACE = 8;
 com_glasirgames_thword_view_SinglePlayerMenuMediator.__meta__ = { fields : { view : { inject : null}, globalVO : { inject : null}, mainNavSignal : { inject : null}}};
-com_glasirgames_thword_view_SinglePlayerMenuMediator.__rtti = "<class path=\"com.glasirgames.thword.view.SinglePlayerMenuMediator\" params=\"\">\n\t<extends path=\"robotlegs.bender.bundles.mvcs.Mediator\"/>\n\t<__TYPE_DESC static=\"1\"><c path=\"org.swiftsuspenders.typedescriptions.TypeDescription\"/></__TYPE_DESC>\n\t<view public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.view.SinglePlayerMenu\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</view>\n\t<globalVO public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.model.GlobalVO\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</globalVO>\n\t<mainNavSignal public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.signal.MainNavSignal\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</mainNavSignal>\n\t<initialize public=\"1\" set=\"method\" line=\"20\" override=\"1\"><f a=\"\"><x path=\"Void\"/></f></initialize>\n\t<addMediatorListeners set=\"method\" line=\"26\"><f a=\"\"><x path=\"Void\"/></f></addMediatorListeners>\n\t<onNavBack set=\"method\" line=\"32\"><f a=\"\"><x path=\"Void\"/></f></onNavBack>\n\t<onStartGame set=\"method\" line=\"37\"><f a=\"\"><x path=\"Void\"/></f></onStartGame>\n\t<new public=\"1\" set=\"method\" line=\"15\"><f a=\"\"><x path=\"Void\"/></f></new>\n\t<meta>\n\t\t<m n=\":directlyUsed\"/>\n\t\t<m n=\":build\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":autoBuild\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":rtti\"/>\n\t\t<m n=\":keepSub\"/>\n\t</meta>\n</class>";
+com_glasirgames_thword_view_SinglePlayerMenuMediator.__rtti = "<class path=\"com.glasirgames.thword.view.SinglePlayerMenuMediator\" params=\"\">\n\t<extends path=\"robotlegs.bender.bundles.mvcs.Mediator\"/>\n\t<__TYPE_DESC static=\"1\"><c path=\"org.swiftsuspenders.typedescriptions.TypeDescription\"/></__TYPE_DESC>\n\t<view public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.view.SinglePlayerMenu\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</view>\n\t<globalVO public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.model.GlobalVO\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</globalVO>\n\t<mainNavSignal public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.signal.MainNavSignal\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</mainNavSignal>\n\t<initialize public=\"1\" set=\"method\" line=\"38\" override=\"1\"><f a=\"\"><x path=\"Void\"/></f></initialize>\n\t<addMediatorListeners set=\"method\" line=\"44\"><f a=\"\"><x path=\"Void\"/></f></addMediatorListeners>\n\t<onNavBack set=\"method\" line=\"50\"><f a=\"\"><x path=\"Void\"/></f></onNavBack>\n\t<onStartGame set=\"method\" line=\"55\"><f a=\"\"><x path=\"Void\"/></f></onStartGame>\n\t<new public=\"1\" set=\"method\" line=\"33\"><f a=\"\"><x path=\"Void\"/></f></new>\n\t<meta>\n\t\t<m n=\":directlyUsed\"/>\n\t\t<m n=\":build\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":autoBuild\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":rtti\"/>\n\t\t<m n=\":keepSub\"/>\n\t</meta>\n</class>";
 com_glasirgames_thword_view_SingleRampage.BTN_SPACE = 6;
 com_glasirgames_thword_view_SingleRampage.TIME_TRIAL_GAME_SHOW_END = "timeTrialGameShowEnd";
 com_glasirgames_thword_view_SingleRampage.TIME_TRIAL_GAME_NAV_BACK = "timeTrialGameNavBack";
@@ -106630,7 +106663,7 @@ com_glasirgames_thword_view_SingleRampage.CLEAR = "clear";
 com_glasirgames_thword_view_SingleRampage.BACKSPACE = "backspace";
 com_glasirgames_thword_view_SingleRampage.CHECK = "check";
 com_glasirgames_thword_view_SingleRampageMediator.__meta__ = { fields : { view : { inject : null}, globalVO : { inject : null}, mainNavSignal : { inject : null}}};
-com_glasirgames_thword_view_SingleRampageMediator.__rtti = "<class path=\"com.glasirgames.thword.view.SingleRampageMediator\" params=\"\">\n\t<extends path=\"robotlegs.bender.bundles.mvcs.Mediator\"/>\n\t<__TYPE_DESC static=\"1\"><c path=\"org.swiftsuspenders.typedescriptions.TypeDescription\"/></__TYPE_DESC>\n\t<view public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.view.SingleRampage\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</view>\n\t<globalVO public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.model.GlobalVO\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</globalVO>\n\t<mainNavSignal public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.signal.MainNavSignal\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</mainNavSignal>\n\t<initialize public=\"1\" set=\"method\" line=\"20\" override=\"1\"><f a=\"\"><x path=\"Void\"/></f></initialize>\n\t<addMediatorListeners set=\"method\" line=\"26\"><f a=\"\"><x path=\"Void\"/></f></addMediatorListeners>\n\t<onNavBack set=\"method\" line=\"31\"><f a=\"\"><x path=\"Void\"/></f></onNavBack>\n\t<new public=\"1\" set=\"method\" line=\"15\"><f a=\"\"><x path=\"Void\"/></f></new>\n\t<meta>\n\t\t<m n=\":directlyUsed\"/>\n\t\t<m n=\":build\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":autoBuild\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":rtti\"/>\n\t\t<m n=\":keepSub\"/>\n\t</meta>\n</class>";
+com_glasirgames_thword_view_SingleRampageMediator.__rtti = "<class path=\"com.glasirgames.thword.view.SingleRampageMediator\" params=\"\">\n\t<extends path=\"robotlegs.bender.bundles.mvcs.Mediator\"/>\n\t<__TYPE_DESC static=\"1\"><c path=\"org.swiftsuspenders.typedescriptions.TypeDescription\"/></__TYPE_DESC>\n\t<view public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.view.SingleRampage\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</view>\n\t<globalVO public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.model.GlobalVO\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</globalVO>\n\t<mainNavSignal public=\"1\">\n\t\t<c path=\"com.glasirgames.thword.signal.MainNavSignal\"/>\n\t\t<meta>\n\t\t\t<m n=\"inject\"/>\n\t\t\t<m n=\":keep\"/>\n\t\t</meta>\n\t</mainNavSignal>\n\t<initialize public=\"1\" set=\"method\" line=\"38\" override=\"1\"><f a=\"\"><x path=\"Void\"/></f></initialize>\n\t<addMediatorListeners set=\"method\" line=\"44\"><f a=\"\"><x path=\"Void\"/></f></addMediatorListeners>\n\t<onNavBack set=\"method\" line=\"49\"><f a=\"\"><x path=\"Void\"/></f></onNavBack>\n\t<new public=\"1\" set=\"method\" line=\"33\"><f a=\"\"><x path=\"Void\"/></f></new>\n\t<meta>\n\t\t<m n=\":directlyUsed\"/>\n\t\t<m n=\":build\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":autoBuild\"><e>org.swiftsuspenders.macros.ReflectorMacro.check()</e></m>\n\t\t<m n=\":rtti\"/>\n\t\t<m n=\":keepSub\"/>\n\t</meta>\n</class>";
 com_glasirgames_thword_view_gamestuff_EnduranceEndPopup.BTN_SPACE = 5;
 com_glasirgames_thword_view_gamestuff_RampageEndPopup.BTN_SPACE = 5;
 haxe_Serializer.USE_CACHE = false;

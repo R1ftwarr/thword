@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="Thword" package="com.glasirgames.thword" version="1.0.0" company="Education Curb Pty Ltd" />
+	<meta title="Thword" package="com.glasirgames.thword" version="1.0.0" company="Glasir Games Pty Ltd" />
 	<app main="Main" path="Export" file="Thword" />
 
 	<window width="1280" height="800"
