@@ -1,6 +1,6 @@
 # THWORD - Open Source Word Game
 Visit Glasir Games https://glasirgames.com/thword/index.html to try it out.
-Thword is built with the following Haxe software libraries. Haxe is an open source software framework to build HTML5, console and mobile games and apps. THWORD can be used as a base for any new HTML5 project. It contains asset loaders, sound management, starling engine and particle effects all wrapped in Robotlegs MVC. THWORD is distributed under the GNU General Public License http://www.gnu.org/licenses/
+Thword is built with the following Haxe software libraries. Haxe is an open source software framework to build HTML5, console and mobile games or apps. THWORD can be used as a base for any new HTML5 project. It contains asset loaders, sound management, starling engine and particle effects all wrapped in Robotlegs MVC. THWORD is distributed under the GNU General Public License http://www.gnu.org/licenses/
 
 ## Recommended Editors
 Visual Studio Code https://code.visualstudio.com/ (Free) <br />
