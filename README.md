@@ -33,7 +33,8 @@ haxelib install starling 2.5.1 <br />
 haxelib install actuate 1.8.9 <br />
 haxelib install swiftsuspenders 1.1.0 <br />
 haxelib install msignal 1.2.5 <br />
-<br />
+
+## Download THWORD git repository
 Github Clone or download THWORD project<br />
 Change to thword directory in console<br />
 cd/thword<br />
